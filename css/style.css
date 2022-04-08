@@ -1,0 +1,42 @@
+p {
+    text-align: center;
+}
+
+img {
+    width: 10vw;
+    height: auto;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+tr {
+    display: flex;
+}
+
+td {
+    display: flex;
+    margin: 1vh;
+}
+
+.back {
+    position: absolute;
+    z-index: 3;
+}
+
+.back-selected {
+    position: absolute;
+    z-index: 3;
+    display: none;
+}
+
+.buen-intento {
+    pointer-events: none;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
