@@ -1,15 +1,40 @@
-p {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
     text-align: center;
+    padding: 2vh 12vh 2vh 12vh;
+    backdrop-filter: blur(0px) saturate(0%);
+    -webkit-backdrop-filter: blur(0px) saturate(0%);
+    background-color: rgba(61, 70, 78, 1);
+    border-radius: 2vh;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+h2 {
+    text-align: center;
+    color: white;
 }
 
 img {
-    width: 10vw;
+    width: 9vw;
     height: auto;
+    padding: 1vh;
 }
 
 table {
     display: flex;
     justify-content: center;
+    margin: 2vh;
 }
 
 tr {
@@ -18,7 +43,6 @@ tr {
 
 td {
     display: flex;
-    margin: 1vh;
 }
 
 .back {
@@ -29,14 +53,19 @@ td {
 .back-selected {
     position: absolute;
     z-index: 3;
-    display: none;
+    visibility: hidden;
 }
 
-.buen-intento {
-    pointer-events: none;
-}
-
-div {
-    display: flex;
-    justify-content: center;
+button {
+    height: auto;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    padding: 2vh 5vh 2vh 5vh;
+    backdrop-filter: blur(0px) saturate(0%);
+    -webkit-backdrop-filter: blur(0px) saturate(0%);
+    background-color: rgba(61, 70, 78, 1);
+    border-radius: 2vh;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: #fff;
 }
